@@ -27,18 +27,9 @@ energy : 학습 데이터가 포함된 폴더
 목적 : 건물 별로의 특징의 차이를 확인
 
 - 전력 사용 분류
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/de75fbb9-bfb7-4a26-a824-1e347d9aa7cd/Untitled.png)
-    
 - 각 건물 별 target과 feature 사이에 상관 관계
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7dd365a0-cd2b-44b4-97a9-d8f8c3c6fb6e/Untitled.png)
-    
 - 용도 분류를 위한 요일 및 사용 시간 별 전력 사용량
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cb4d6ad5-54ed-4330-9208-7d6df3bd4d78/Untitled.png)
-    
-
+- 
 ##### 군집화
 
 군집 생성 Feature : 
@@ -49,8 +40,7 @@ energy : 학습 데이터가 포함된 폴더
 
 - **Cluster 시각화 : hierarchical clustering**
     - 건물의 경우 용도가 계층적이라고 생각하여 이를 계층적으로 군집화진행
-        
-        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a9b37f86-f5f9-4bb2-9a63-c0e56fd9d80c/Untitled.png)
+      ![Untitled](https://github.com/sungwo101/Aiffel_minitone/assets/74895635/fff45f81-c3a1-47be-8296-a260b95df832)
         
 - **시간과 요일에 따른 cluster 별 전기 수요량**
     
